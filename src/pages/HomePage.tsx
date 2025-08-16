@@ -65,16 +65,10 @@ const HomePage: React.FC = () => {
 
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link
-                  to="/join"
+                  to="https://discord.falak.me/"
                   className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-bold py-4 px-8 rounded-lg transition-all duration-300 transform hover:scale-105 text-center"
                 >
                   Join the Club →
-                </Link>
-                <Link
-                  to="/dashboard"
-                  className="bg-transparent border-2 border-white text-white font-bold py-4 px-8 rounded-lg hover:bg-white hover:text-black transition-all duration-300 text-center"
-                >
-                  Member Login
                 </Link>
               </div>
             </div>
